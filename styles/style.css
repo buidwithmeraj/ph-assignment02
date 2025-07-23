@@ -39,6 +39,49 @@ nav {
 
 }
 
+.big-image {
+    width: 60vw;
+}
+
+.small-image {
+    width: 40vw;
+    height: 60vh;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-text-center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.newsletter {
+    background: url(../assets/news-letter-bg.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+input[type="text"] {
+    background: white;
+    padding: 14px;
+    border: none;
+    margin-top: 20px;
+}
+
+button {
+    background: #E95A08;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 640px) {
     body {
