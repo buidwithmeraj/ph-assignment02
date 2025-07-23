@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+
+body {
+    margin: 0 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.link {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        margin: 0 16px;
+    }
+    
+}
