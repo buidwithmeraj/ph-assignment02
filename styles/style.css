@@ -13,9 +13,9 @@ body {
 #nav-links {
     list-style: none;
     display: flex;
-    gap: 30px;
     flex-direction: row;
     align-items: center;
+    gap: 20px;
 }
 
 #nav-links li:nth-child(2), li {
@@ -68,6 +68,8 @@ body {
         padding: 0 16px;
     }
 
-    
+    #nav-links {
+        gap: 5px;
+    }
     
 }
