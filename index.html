@@ -11,102 +11,86 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="flex items-center justify-between p-2">
             <div class="logo"><img src="assets/logo.png" alt="Logo"></div>
             <div class="links">
                 <ul id="nav-links">
-                    <li><a href="#" class="font-bold">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#" class="font-bold hidden md:block">Home</a></li>
+                    <li><a href="#" class="hidden md:block">Shop</a></li>
+                    <li><a href="#" class="hidden md:block">About</a></li>
                     <li><a href="#"><img src="assets/cart.png" id="cart-icon" alt="Cart icon"> Cart ($56)</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <div class="flex items-end place-content-between gap-8 hero pt-[100px]">
-            <div class="w-full">
+        <div class="flex flex-col md:flex-row items-end place-content-between gap-8 hero pt-[100px]">
+            <div class="w-full order-2 md:order-1">
                 <h2 class="font-bold text-[65px] leading-[1] font-[Noto_Serif]">ALWAYS <span
                         class="text-[#E95A08]">FRESH FLOWERS</span></h2><br>
                 <span class="text-[#7A7C80] text-[22px]">Indulge your senses with the beauty and fragrance of our fresh
                     flower shop. From classic roses to exotic blooms, we offer a <span class="font-bold">FLOWERS</span>
                     variety of fresh flowers that are perfect for any occasion. </span>
             </div>
-            <div class="w-full"><img src="assets/hero-flower.png" alt="Hero flower" class="hero-image"></div>
+            <div class="w-full order-1 md:order-2"><img src="assets/hero-flower.png" alt="Hero flower" class="hero-image"></div>
         </div>
-        <div class="mt-[120px]">
+        <div class="mt-14 md:mt-[120px]">
             <h2 class="text-center text-[50px] font-bold font-[Noto_Serif]"><span class="text-[#E95A08]">Our</span>
                 Plants</h2>
             <p class="text-center text-[22px] text-[#7A7C80]">Indulge your senses with the beauty and fragrance of our
                 fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-            <div class="grid grid-cols-4 flex-wrap gap-5 mt-[50px]">
+            <div class="grid grid-cols-2 md:grid-cols-4 flex-wrap gap-5 mt-[50px]">
                 <div class="products">
                     <img src="assets/sample-flower-image.png" alt="flower image" class="w-full">
                     <h2 class="text-center text-[22px] text-[#111111] pt-[30px]">Lily Blossom</h2>
-                    <p class="text-center text-[22px] text-[#111111] pb-[30px]">20 USD</p>
-                    <button
-                        class="pt-[20px] pb-[20px] pl-[80px] pr-[80px] border bg-[#E95A08] text-white border-white w-full">ADD
-                        TO CART</button>
+                    <p class="text-center text-[22px] text-[#111111] pb-[30px] font-semibold">20 USD</p>
+                    <button  class="p-4 md:pt-[20px] md:pb-[20px] md:pl-[80px] md:pr-[80px] border bg-[#E95A08] text-white border-white w-full" onclick="alert('Flower Added to Cart')">ADD TO CART</button>
                 </div>
                 <div class="products">
                     <img src="assets/sample-flower-image.png" alt="flower image" class="w-full">
                     <h2 class="text-center text-[22px] text-[#111111] pt-[30px]">Lily Blossom</h2>
-                    <p class="text-center text-[22px] text-[#111111] pb-[30px]">20 USD</p>
-                    <button
-                        class="pt-[20px] pb-[20px] pl-[80px] pr-[80px] border bg-[#E95A08] text-white border-white w-full">ADD
-                        TO CART</button>
+                    <p class="text-center text-[22px] text-[#111111] pb-[30px] font-semibold">20 USD</p>
+                    <button  class="p-4 md:pt-[20px] md:pb-[20px] md:pl-[80px] md:pr-[80px] border bg-[#E95A08] text-white border-white w-full" onclick="alert('Flower Added to Cart')">ADD TO CART</button>
                 </div>
                 <div class="products">
                     <img src="assets/sample-flower-image.png" alt="flower image" class="w-full">
                     <h2 class="text-center text-[22px] text-[#111111] pt-[30px]">Lily Blossom</h2>
-                    <p class="text-center text-[22px] text-[#111111] pb-[30px]">20 USD</p>
-                    <button
-                        class="pt-[20px] pb-[20px] pl-[80px] pr-[80px] border bg-[#E95A08] text-white border-white w-full">ADD
-                        TO CART</button>
+                    <p class="text-center text-[22px] text-[#111111] pb-[30px] font-semibold">20 USD</p>
+                    <button  class="p-4 md:pt-[20px] md:pb-[20px] md:pl-[80px] md:pr-[80px] border bg-[#E95A08] text-white border-white w-full" onclick="alert('Flower Added to Cart')">ADD TO CART</button>
                 </div>
                 <div class="products">
                     <img src="assets/sample-flower-image.png" alt="flower image" class="w-full">
                     <h2 class="text-center text-[22px] text-[#111111] pt-[30px]">Lily Blossom</h2>
-                    <p class="text-center text-[22px] text-[#111111] pb-[30px]">20 USD</p>
-                    <button
-                        class="pt-[20px] pb-[20px] pl-[80px] pr-[80px] border bg-[#E95A08] text-white border-white w-full">ADD
-                        TO CART</button>
+                    <p class="text-center text-[22px] text-[#111111] pb-[30px] font-semibold">20 USD</p>
+                    <button  class="p-4 md:pt-[20px] md:pb-[20px] md:pl-[80px] md:pr-[80px] border bg-[#E95A08] text-white border-white w-full" onclick="alert('Flower Added to Cart')">ADD TO CART</button>
                 </div>
                 <div class="products">
                     <img src="assets/sample-flower-image.png" alt="flower image" class="w-full">
                     <h2 class="text-center text-[22px] text-[#111111] pt-[30px]">Lily Blossom</h2>
-                    <p class="text-center text-[22px] text-[#111111] pb-[30px]">20 USD</p>
-                    <button
-                        class="pt-[20px] pb-[20px] pl-[80px] pr-[80px] border bg-[#E95A08] text-white border-white w-full">ADD
-                        TO CART</button>
+                    <p class="text-center text-[22px] text-[#111111] pb-[30px] font-semibold">20 USD</p>
+                    <button  class="p-4 md:pt-[20px] md:pb-[20px] md:pl-[80px] md:pr-[80px] border bg-[#E95A08] text-white border-white w-full" onclick="alert('Flower Added to Cart')">ADD TO CART</button>
                 </div>
                 <div class="products">
                     <img src="assets/sample-flower-image.png" alt="flower image" class="w-full">
                     <h2 class="text-center text-[22px] text-[#111111] pt-[30px]">Lily Blossom</h2>
-                    <p class="text-center text-[22px] text-[#111111] pb-[30px]">20 USD</p>
-                    <button
-                        class="pt-[20px] pb-[20px] pl-[80px] pr-[80px] border bg-[#E95A08] text-white border-white w-full">ADD
-                        TO CART</button>
+                    <p class="text-center text-[22px] text-[#111111] pb-[30px] font-semibold">20 USD</p>
+                    <button  class="p-4 md:pt-[20px] md:pb-[20px] md:pl-[80px] md:pr-[80px] border bg-[#E95A08] text-white border-white w-full" onclick="alert('Flower Added to Cart')">ADD TO CART</button>
                 </div>
                 <div class="products">
                     <img src="assets/sample-flower-image.png" alt="flower image" class="w-full">
                     <h2 class="text-center text-[22px] text-[#111111] pt-[30px]">Lily Blossom</h2>
-                    <p class="text-center text-[22px] text-[#111111] pb-[30px]">20 USD</p>
-                    <button
-                        class="pt-[20px] pb-[20px] pl-[80px] pr-[80px] border bg-[#E95A08] text-white border-white w-full">ADD
-                        TO CART</button>
+                    <p class="text-center text-[22px] text-[#111111] pb-[30px] font-semibold">20 USD</p>
+                    <button  class="p-4 md:pt-[20px] md:pb-[20px] md:pl-[80px] md:pr-[80px] border bg-[#E95A08] text-white border-white w-full" onclick="alert('Flower Added to Cart')">ADD TO CART</button>
                 </div>
                 <div class="products">
                     <img src="assets/sample-flower-image.png" alt="flower image" class="w-full">
                     <h2 class="text-center text-[22px] text-[#111111] pt-[30px]">Lily Blossom</h2>
-                    <p class="text-center text-[22px] text-[#111111] pb-[30px]">20 USD</p>
-                    <button
-                        class="pt-[20px] pb-[20px] pl-[80px] pr-[80px] border bg-[#E95A08] text-white border-white w-full">ADD
-                        TO CART</button>
+                    <p class="text-center text-[22px] text-[#111111] pb-[30px] font-semibold">20 USD</p>
+                    <button  class="p-4 md:pt-[20px] md:pb-[20px] md:pl-[80px] md:pr-[80px] border bg-[#E95A08] text-white border-white w-full" onclick="alert('Flower Added to Cart')">ADD TO CART</button>
                 </div>
             </div>
         </div>
-        <div class="mt-28 flex items-center place-content-between gap-20">
+        <div class="mt-14 md:mt-28 flex items-center flex-col md:flex-row place-content-between gap-8 md:gap-20">
             <div class="w-full h-auto"><img src="assets/flower-store.png" alt="Flower store" class="w-full h-min"></div>
             <div class="w-full">
                 <h2 class="font-[Noto_Serif] font-bold text-[50px]">Flower & Plants Lover</h2>
@@ -122,44 +106,91 @@
                 </ul>
             </div>
         </div>
-        <h2 class="text-center text-[50px] font-bold font-[Noto_Serif] mt-28"><span class="text-[#E95A08]">Latest</span>
+        <h2 class="text-center text-[50px] font-bold font-[Noto_Serif] mt-14 md:mt-28"><span class="text-[#E95A08]">Latest</span>
             Deals</h2>
-        <p class="text-center text-[22px] text-[#7A7C80]">Indulge your senses with the beauty and fragrance of our fresh
+        <p class="text-center text-[22px] text-[#7A7C80] mt-8">Indulge your senses with the beauty and fragrance of our fresh
             flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-        <div class="flex gap-4 mt-28 mb-[120px]">
-            <div class="w-[30%] flex flex-col gap-4">
-                <div class="relative w-full h-1/2">
+        <div class="flex flex-col md:flex-row gap-4 mt-28 mb-[120px]">
+            <div class="flex flex-col gap-4 w-full md:w-[30%]">
+                <div class="relative w-full md:h-1/2">
                     <img src="assets/deal-bloom.png" alt="Image 1"
-                        class="object-cover w-full h-full rounded-4xl brightness-70" />
+                        class="object-cover w-full h-full rounded-4xl brightness-60" />
                     <div class="absolute inset-0 flex items-center justify-center">
-                        <p class="text-white font-bold text-center font-[Noto_Serif] text-xl">60% Off | Bloom Plant<br><a href="#" class="underline">Shop Now</a></p>
+                        <p class="text-white font-bold text-center font-[Noto_Serif] text-xl">60% Off | Bloom
+                            Plant<br><a href="#" class="underline">Shop Now</a></p>
                     </div>
                 </div>
 
-                <div class="relative w-full h-1/2">
+                <div class="relative w-full md:h-1/2">
                     <img src="assets/deal-ana.png" alt="Image 2"
-                        class="object-cover w-full h-full rounded-4xl brightness-70" />
+                        class="object-cover w-full h-full rounded-4xl brightness-60" />
                     <div class="absolute inset-0 flex items-center justify-center">
-                        <p class="text-white font-bold text-center font-[Noto_Serif] text-xl">30% Off | Ana  Plant<br><a href="#" class="underline">Shop Now</a></p>
+                        <p class="text-white font-bold text-center font-[Noto_Serif] text-xl">30% Off | Ana Plant<br><a
+                                href="#" class="underline">Shop Now</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="w-[70%] relative">
+            <div class="w-full md:w-[70%] relative">
                 <img src="assets/deal-zabo.png" alt="Image 3"
-                    class="object-cover w-full h-full rounded-4xl brightness-70" />
+                    class="object-cover w-full h-full rounded-4xl brightness-60" />
                 <div class="absolute inset-0 flex items-center justify-center">
-                    <p class="text-white font-bold text-center font-[Noto_Serif] text-4xl">25% Off | Zabo Plantbr<br><a href="#" class="underline">Shop Now</a></p>
+                    <p class="text-white font-bold text-center font-[Noto_Serif] text-xl md:text-4xl">25% Off | Zabo Plant<br><a
+                            href="#" class="underline">Shop Now</a></p>
                 </div>
             </div>
         </div>
 
-        <div class="newsletter text-center absolute left-0 right-0 pt-48 pb-48 pr-[305px] pl-[305px]">
-            <h2 class="text-center text-[50px] font-bold font-[Noto_Serif] text-white">Join the colorful Bunch</h2>
-            <div class="flex items-center content-center"><input type="text" name="email" class="w-[80%]" placeholder="Write email"><button type="button" class="bg-[#E95A08] text-white p-3.5 w-[20%]">Subscribe</button></div>
-        </div>
+        <div class="newsletter text-center absolute left-0 right-0 pt-34 pb-24 pr-8 pl-8 md:pt-48 md:pb-48 md:pr-[305px] md:pl-[305px]">
+  <h2 class="text-center text-5xl font-bold font-[Noto_Serif] text-white mb-6">
+    Join the colorful Bunch
+  </h2>
+
+  <div class="flex w-full max-w-3xl mx-auto">
+    <!-- Input field -->
+    <input type="text" name="email"
+      class="w-[65%] md:w-[80%] bg-white text-[22px] text-[#111111] placeholder:text-[#7A7C80] placeholder:text-xl px-6 h-[64px] focus:outline-none" 
+      placeholder="Write email" />
+
+    <!-- Button -->
+    <button type="button"
+      class="w-[35%] md:w-[20%] bg-[#E95A08] text-white text-xl h-[64px]">
+      Subscribe
+    </button>
+  </div>
+</div>
+
     </main>
-    <footer class="pt-8 pb-28"></footer>
+    <footer class="pt-8 pb-10 mt-[550px] md:mt-[660px] flex flex-col md:flex-row items-start justify-between gap-8">
+        <div class="text-[#7A7C80] text-[22px]"><img src="assets/logo.png" alt="Logo"><br>Indulge your senses with the
+            beauty and fragrance of our fresh flower shop. </div>
+        <div>
+            <ul class="text-[#7A7C80] flex flex-col gap-4">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="text-[#7A7C80] flex flex-col gap-4">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Help Center</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="text-[#7A7C80] flex gap-4 content-start items-center">
+                <li><a href="#"><img src="assets/icon-linkedin.png" alt="LinkedIn Icon"></a></li>
+                <li><a href="#"><img src="assets/icon-twitter.png" alt="Twitter Icon"></a></li>
+                <li><a href="#"><img src="assets/icon-facebook.png" alt="Facebook Icon"></a></li>
+                <li><a href="#"><img src="assets/icon-youtube.png" alt="Youtube Icon"></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>

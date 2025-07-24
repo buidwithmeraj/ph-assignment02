@@ -3,12 +3,6 @@ body {
     margin: 0 150px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 0;
-}
 
 #cart-icon {
     height: 28px;
@@ -66,26 +60,13 @@ nav {
     text-align: center;
 }
 
-input[type="text"] {
-    background: white;
-    padding: 14px;
-    border: none;
-    margin-top: 20px;
-}
-
-button {
-    background: #E95A08;
-    color: white;
-    padding: 14px 20px;
-    border: none;
-    margin-top: 20px;
-    cursor: pointer;
-}
 
 
 @media screen and (max-width: 640px) {
     body {
         margin: 0 16px;
     }
+
+    
     
 }
